@@ -36,6 +36,14 @@ select{
   margin: 20px;
   font-size: 3rem
 }
+@media (max-width: 768px) {
+  .list-container{
+    width: 95%;
+  }
+  .list-container h1{
+    font-size: 2rem
+  }
+}
 /*header to add lists*/
 .list-container .header {
   display: flex;
